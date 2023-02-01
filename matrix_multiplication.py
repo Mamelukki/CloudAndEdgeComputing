@@ -13,7 +13,7 @@ def createMatrix(dimension1, dimension2):
     matrix = np.random.rand(dimension1, dimension2)
     return matrix
 
-# method to multiply matrices, matrices given as arguments
+# function to multiply matrices, matrices given as arguments
 def multiplyMatrices(matrix1, matrix2):
     result = np.matmul(matrix1, matrix2)
     return result
